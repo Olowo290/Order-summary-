@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:hsl(225, 100%, 94%);
+    margin: 5px;
+    
+}
+main{
+    width: 310px;  
+    background-color: #fff;
+    border-radius: 20px;
+}
+h1{
+    margin-bottom: 15px;
+    color: hsl(223, 47%, 23%);
+    margin-top: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+
+}
+.first img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.firstA{
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+}
+.firstan{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.firstA p{
+    width:95%
+}
+.secS{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    width: 90%;
+    background: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+}
+.music{
+    margin-right: 10px;
+}
+.amount{
+    margin-top: 10px;
+    color: hsl(224, 23%, 55%);
+}
+h5{
+    color: hsl(223, 47%, 23%);
+}
+button{
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.firstB{
+    width: 90%;
+    padding: 15px;
+    background: hsl(245, 75%, 52%);
+    border-radius: 7px;
+    font-size: 1rem;
+    color: #fff
+}
+.secB{
+    background: transparent;
+    color: hsl(224, 23%, 55%);
+    opacity: .5;
+}
+.secB:hover{
+    opacity: 1;
+    color: hsl(223, 47%, 23%);
+}
+.foot{
+    text-align: center;
+    margin-top: 10px;
+}
+span{
+    color: #dd99ff;
+}
